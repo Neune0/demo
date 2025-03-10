@@ -1,14 +1,14 @@
 package com.example.demo;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.mockito.Mockito.*;
+//import static org.mockito.Mockito.*;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.test.context.bean.override.mockito.MockitoBean;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.test.context.bean.override.mockito.MockitoBean;
 
 @SpringBootTest
 @ImportAutoConfiguration(exclude = DataSourceAutoConfiguration.class)
